@@ -211,29 +211,7 @@
     border: 2px solid var(--color-light-white);
   }
   
-  .home__title {
-    overflow: hidden; /* 글자 밖으로 나가지 않게 */
-    border-right: 4px solid #000; /* 커서처럼 보이게 */
-    width: 0; /* 초기 너비 0 */
-    white-space: nowrap; /* 줄바꿈 방지 */
-    animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite; /* 타이핑 애니메이션 */
-  }
-
-  @keyframes typing {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 100%;
-    }
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-
+  .home__title,
   .home__description {
     color: var(--color-white);
   }
